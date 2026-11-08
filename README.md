@@ -110,7 +110,7 @@ Cloud-native, enterprise-grade Vendor Management and Procurement platforms. Belo
 
 ## 💻 Open-Source & Self-Hosted Software 🔓
 
-Self-hosted, transparent, and developer-friendly Vendor Management Systems, Supplier MCP backbones, and Procurement automation tools. Ranked below in descending order by **GitHub Stars_Count**.
+Self-hosted, transparent, and developer-friendly Vendor Management Systems, Supplier MCP backbones, and Procurement automation tools. Ranked below in descending order by **GitHub_Stars_Count**.
 
 ### ⭐ Open-Source GitHub_Stars & Capabilities Matrix
 
