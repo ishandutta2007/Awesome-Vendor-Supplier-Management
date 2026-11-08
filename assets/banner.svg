@@ -13,11 +13,6 @@
       <stop offset="100%" stop-color="#c084fc" />
     </linearGradient>
 
-    <linearGradient id="accent-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.2"/>
-    </linearGradient>
-
     <linearGradient id="pill-grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#1e293b" stop-opacity="0.9" />
       <stop offset="100%" stop-color="#334155" stop-opacity="0.7" />
@@ -35,7 +30,7 @@
   </defs>
 
   <style>
-    /* Dynamic pulsing & flowing background circuits */
+    <![CDATA[
     @keyframes pulseOrb {
       0%, 100% { transform: scale(1); opacity: 0.25; }
       50% { transform: scale(1.18); opacity: 0.45; }
@@ -74,6 +69,7 @@
     .floating-pill-3 {
       animation: floatPill 5.5s ease-in-out infinite;
     }
+    ]]>
   </style>
 
   <!-- Background Base -->
@@ -114,32 +110,32 @@
   <g class="floating-pill-1" transform="translate(60, 48)">
     <rect width="180" height="34" rx="17" fill="url(#pill-grad)" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.6" />
     <circle cx="20" cy="17" r="5" fill="#38bdf8" filter="url(#subtle-glow)" />
-    <text x="35" y="22" fill="#e2e8f0" font-size="12" font-weight="600" letter-spacing="0.5">🤝 VENDOR ONBOARDING</text>
+    <text x="35" y="22" fill="#e2e8f0" font-size="12" font-weight="600" letter-spacing="0.5">VENDOR ONBOARDING</text>
   </g>
 
   <g class="floating-pill-2" transform="translate(950, 48)">
     <rect width="190" height="34" rx="17" fill="url(#pill-grad)" stroke="#818cf8" stroke-width="1.2" stroke-opacity="0.6" />
     <circle cx="20" cy="17" r="5" fill="#818cf8" filter="url(#subtle-glow)" />
-    <text x="35" y="22" fill="#e2e8f0" font-size="12" font-weight="600" letter-spacing="0.5">🛡️ THIRD-PARTY RISK</text>
+    <text x="35" y="22" fill="#e2e8f0" font-size="12" font-weight="600" letter-spacing="0.5">THIRD-PARTY RISK</text>
   </g>
 
   <g class="floating-pill-3" transform="translate(70, 276)">
     <rect width="180" height="34" rx="17" fill="url(#pill-grad)" stroke="#34d399" stroke-width="1.2" stroke-opacity="0.6" />
     <circle cx="20" cy="17" r="5" fill="#34d399" filter="url(#subtle-glow)" />
-    <text x="35" y="22" fill="#e2e8f0" font-size="12" font-weight="600" letter-spacing="0.5">📦 PROCURE-TO-PAY</text>
+    <text x="35" y="22" fill="#e2e8f0" font-size="12" font-weight="600" letter-spacing="0.5">PROCURE-TO-PAY</text>
   </g>
 
   <g class="floating-pill-1" transform="translate(940, 276)">
     <rect width="200" height="34" rx="17" fill="url(#pill-grad)" stroke="#c084fc" stroke-width="1.2" stroke-opacity="0.6" />
     <circle cx="20" cy="17" r="5" fill="#c084fc" filter="url(#subtle-glow)" />
-    <text x="35" y="22" fill="#e2e8f0" font-size="12" font-weight="600" letter-spacing="0.5">📊 SPEND &amp; CONTRACTS</text>
+    <text x="35" y="22" fill="#e2e8f0" font-size="12" font-weight="600" letter-spacing="0.5">SPEND &amp; CONTRACTS</text>
   </g>
 
   <!-- FOREGROUND: Main Title and Subtitle Header (Sharp, unobstructed, high-contrast) -->
   <g text-anchor="middle">
     <!-- Category Pill -->
     <rect x="475" y="65" width="250" height="28" rx="14" fill="#1e293b" stroke="#64748b" stroke-width="1" opacity="0.9" />
-    <text x="600" y="83" fill="#94a3b8" font-size="11" font-weight="700" letter-spacing="1.5">🌟 CURATED DIRECTORY</text>
+    <text x="600" y="83" fill="#94a3b8" font-size="11" font-weight="700" letter-spacing="1.5">CURATED DIRECTORY</text>
 
     <!-- Main Title -->
     <text x="600" y="150" fill="url(#primary-grad)" font-size="44" font-weight="900" letter-spacing="-0.5">
@@ -148,12 +144,12 @@
 
     <!-- Subtitle -->
     <text x="600" y="192" fill="#f1f5f9" font-size="18" font-weight="500" letter-spacing="0.2">
-      Enterprise SaaS Platforms • Open-Source Procurement • Supplier Lifecycle &amp; TPRM
+      Enterprise SaaS Platforms &#8226; Open-Source Procurement &#8226; Supplier Lifecycle &amp; TPRM
     </text>
 
     <!-- Feature Tags Row -->
     <text x="600" y="232" fill="#94a3b8" font-size="13" font-weight="400">
-      ⚡ Live Pricing Benchmarks &nbsp;•&nbsp; 🏢 Enterprise Market Valuation &nbsp;•&nbsp; 🔓 Self-Hosted Alternatives
+      Live Pricing Benchmarks &#8226; Enterprise Market Valuation &#8226; Self-Hosted Alternatives
     </text>
   </g>
 
