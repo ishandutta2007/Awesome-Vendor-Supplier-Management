@@ -25,7 +25,7 @@
   - [📊 SaaS Pricing, Free Tier & Market Valuation Comparison](#-saas-pricing-free-tier--market-valuation-comparison)
   - [🔍 Detailed SaaS Platform Profiles](#-detailed-saas-platform-profiles)
 - [💻 Open-Source & Self-Hosted Software](#-open-source--self-hosted-software)
-  - [⭐ Open-Source Stars & Capabilities Matrix](#-open-source-stars--capabilities-matrix)
+  - [⭐ Open-Source GitHub_Stars & Capabilities Matrix](#-open-source-stars--capabilities-matrix)
   - [📦 Detailed Open-Source Project Profiles](#-detailed-open-source-project-profiles)
 - [⚖️ Comprehensive Feature Comparison](#-comprehensive-feature-comparison)
 - [💖 Support & Community](#-support--community)
@@ -110,11 +110,11 @@ Cloud-native, enterprise-grade Vendor Management and Procurement platforms. Belo
 
 ## 💻 Open-Source & Self-Hosted Software 🔓
 
-Self-hosted, transparent, and developer-friendly Vendor Management Systems, Supplier MCP backbones, and Procurement automation tools. Ranked below in descending order by **GitHub Star Count**.
+Self-hosted, transparent, and developer-friendly Vendor Management Systems, Supplier MCP backbones, and Procurement automation tools. Ranked below in descending order by **GitHub Stars_Count**.
 
-### ⭐ Open-Source Stars & Capabilities Matrix
+### ⭐ Open-Source GitHub_Stars & Capabilities Matrix
 
-| Repository & Project 📦 | Stars (Social Badge) ⭐ | Stack / Framework 🛠️ | License 📜 | Self-Hosted 🏠 | Supplier Portal 🌐 | PO & RFQ 📑 |
+| Repository & Project 📦 | GitHub_Stars (Social Badge) ⭐ | Stack / Framework 🛠️ | License 📜 | Self-Hosted 🏠 | Supplier Portal 🌐 | PO & RFQ 📑 |
 |:---|:---:|:---|:---:|:---:|:---:|:---:|
 | **[Dolibarr ERP/CRM](https://github.com/Dolibarr/dolibarr)** | [![Dolibarr Stars](https://img.shields.io/github/stars/Dolibarr/dolibarr?style=social&color=white)](https://github.com/Dolibarr/dolibarr/stargazers) | PHP / MySQL / MariaDB | GPL-3.0 | ✅ | ✅ | ✅ |
 | **[ITFlow](https://github.com/itflow-org/itflow)** | [![ITFlow Stars](https://img.shields.io/github/stars/itflow-org/itflow?style=social&color=white)](https://github.com/itflow-org/itflow/stargazers) | PHP / MySQL / Bootstrap | GPL-3.0 | ✅ | ✅ | ✅ |
@@ -260,7 +260,7 @@ Contributions are warmly welcome! Whether you are an open-source author or an en
 
 To propose a new tool:
 1. Fork this repository 🍴
-2. Add your tool to the corresponding section with verified pricing or star badges 📝
+2. Add your tool to the corresponding section with verified pricing or Stars_Badges 📝
 3. Verify all markdown links and formatting ✨
 4. Submit a Pull Request with a clear summary of why the tool is valuable 🚀
 
